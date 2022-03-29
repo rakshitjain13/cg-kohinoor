@@ -26,7 +26,7 @@ const state = {
       offset: 3,
       factor: 2.25,
       header: "Catalina",
-      image: "/ph1.jpg",
+      image: "https://images.unsplash.com/photo-1516471764-8040058a618a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       aspect: 1.5037,
       text: "The substance can take you to heaven but it can also take you to hell. Or else to both, together or alternately. Or else (if you're lucky, or if you've made yourself ready) beyond either of them. And then beyond the beyond, back to where you started from — back to here, back to New Rotham sted, back to business as usual. Only now, of course, business as usual is completely different."
     },
@@ -40,9 +40,9 @@ const state = {
     },
     {
       offset: 5,
-      factor: 1.75,
+      factor: 1.2,
       header: "Sector 8",
-      image: "/photo-1533577116850-9cc66cad8a9b.jpeg",
+      image: "https://images.unsplash.com/photo-1600475952217-269feeae7812?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       aspect: 1.55,
       text: "By cultivating the state of mind that makes it possible for the dazzling ecstatic insights to become permanent and habitual illuminations. By getting to know oneself to the point where one won’t be compelled by one’s unconscious to do all the ugly, absurd, self-stultifying things that one so often finds oneself doing."
     },

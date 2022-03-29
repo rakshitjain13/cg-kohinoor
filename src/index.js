@@ -50,7 +50,7 @@ function Content() {
     TextureLoader,
     state.paragraphs.map(({ image }) => image)
   )
-  useMemo(() => images.forEach(texture => (texture.minFilter = LinearFilter)), [images])
+  useMemo(() => images.forEach((texture) => (texture.minFilter = LinearFilter)), [images])
   const { contentMaxWidth: w, canvasWidth, canvasHeight, mobile } = useBlock()
   return (
     <>
@@ -86,7 +86,7 @@ function Content() {
 
 function App() {
   const scrollArea = useRef()
-  const onScroll = e => (state.top.current = e.target.scrollTop)
+  const onScroll = (e) => (state.top.current = e.target.scrollTop)
   useEffect(() => void onScroll({ target: scrollArea.current }), [])
   return (
     <>
@@ -97,7 +97,7 @@ function App() {
           <Startup />
         </Suspense>
       </Canvas>
-      <div className="scrollArea" ref={scrollArea} onScroll={onScroll}>
+      <div className="scrollArea " ref={scrollArea} onScroll={onScroll}>
         {new Array(state.sections).fill().map((_, index) => (
           <div key={index} id={"0" + index} style={{ height: `${(state.pages / state.sections) * 100}vh` }} />
         ))}
